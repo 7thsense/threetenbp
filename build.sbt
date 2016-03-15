@@ -37,3 +37,4 @@ lazy val threetenbp = threetenbpCross.jvm
   .settings(commonSettings: _*)
 lazy val threetenbpJS = threetenbpCross.js
   .settings(commonSettings: _*)
+  .settings(libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1-SNAPSHOT")
